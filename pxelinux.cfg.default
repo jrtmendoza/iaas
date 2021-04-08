@@ -1,0 +1,5 @@
+DEFAULT install
+LABEL install
+  KERNEL vmlinuz
+  INITRD initrd
+  APPEND root=/dev/ram0 ramdisk_size=1500000 ip=dhcp url=http://mirror.pregi.net/ubuntu-releases/20.04.2.0/ubuntu-20.04.2-live-server-amd64.iso
